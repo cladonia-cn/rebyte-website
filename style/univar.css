@@ -1,0 +1,113 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        background-color: var(--elegant-black);
+
+        --card-bg: rgba(26, 27, 28, 0.5);
+        --card-bg-hover: rgb(26, 27, 28);
+        --scrollbar-bg: rgba(255, 255, 255, 0.5);
+        --font-color: #ffffff;
+        --font-weight: 300;
+        --btn-sec-bg: rgba(255, 255, 255, 0.25);
+        --btn-sec-hover-bg: rgba(255, 255, 255, 0.3);
+    }
+
+    span.logobox {
+        #code-left {
+            fill: var(--plain-grey);
+        }
+
+        #solidus {
+            fill: var(--plain-grey);
+        }
+
+        #code-right {
+            fill: var(--plain-grey);
+        }
+    }
+
+    span.logobox:hover {
+        #code-left {
+            fill: var(--land-orange);
+        }
+
+        #solidus {
+            fill: var(--rose-rad);
+        }
+
+        #code-right {
+            fill: var(--elegant-black);
+        }
+    }
+
+
+    .leftbar {
+        background: rgba(17, 18, 19, 0.75);
+    }
+
+    .leftbar:hover {
+        background: rgba(17, 18, 19, 0.85);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        background-color: var(--plain-grey);
+
+        --card-bg: rgba(255, 255, 255, 0.5);
+        --card-bg-hover: rgb(255, 255, 255);
+        --font-color: #1d1d1d;
+        --font-weight: 400;
+        --btn-sec-bg: rgba(0, 0, 0, 0.15);
+        --btn-sec-hover-bg: rgba(0, 0, 0, 0.2);
+        --scrollbar-bg: rgba(26, 27, 28, 0.6);
+    }
+
+    span.logobox {
+        #code-left {
+            fill: var(--elegant-black);
+        }
+
+        #solidus {
+            fill: var(--elegant-black);
+        }
+
+        #code-right {
+            fill: var(--elegant-black);
+        }
+    }
+
+    span.logobox:hover {
+        #code-left {
+            fill: var(--land-orange);
+        }
+
+        #solidus {
+            fill: var(--rose-rad);
+        }
+
+        #code-right {
+            fill: var(--elegant-black);
+        }
+    }
+
+    .leftbar {
+        background: rgba(255, 255, 255, 0.75);
+    }
+
+    .leftbar:hover {
+        background: rgba(255, 255, 255, 0.85);
+    }
+}
+
+:root {
+    --rose-rad: #E63C3C;
+    --land-orange: #FAA05F;
+    --elegant-black: #1A1B1C;
+    --plain-grey: #F5F5F5;
+    --leftbarmask-width: 77px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+}
